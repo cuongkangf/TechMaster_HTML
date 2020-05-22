@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+.banner{
+    height: 25px;
+    background: #cb6161;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrap{
+    margin: 5px auto;
+    width: 1000px;
+    height: 3000px;
+    border: 1px solid #000000;
+}
+/* -------------------------------------- */
+#row1{
+    margin-top: 10px;
+    height: 50px;
+}
+#row1 .box{
+    float: left;
+    background: #d8d8d8;
+    border: 1px solid #000000;
+    height: inherit;
+    width: 48%;
+    margin: 0 1%;
+}
+
+/* ------------------------------------------ */
+
+#row2{
+    margin-top: 10px;
+    height:105px;
+}
+
+#row2 .column{
+    float: left;
+    height: 100%;
+    width: 23%;
+    margin: 10px 1%;
+}
+
+#column1 .box ,#column4 .box{
+    background: #d8d8d8;
+    border: 1px solid #000000;
+    height: 100%;
+    margin-top: 5px; 
+}
+
+#column2 .box ,#column3 .box{
+    background: #d8d8d8;
+    border: 1px solid #000000;
+    height: 50%;
+    margin-top: 5px; 
+}
+/* -------------------- */
+
+#row3{
+    margin-top: 10px;
+    height: 50px;
+    /* position: relative; */
+}
+
+#row3 .box{
+    float: left;
+    position: relative;
+    left: 25%;
+    background: #d8d8d8;
+    border: 1px solid #000000;
+    height: 50px;
+    margin-top: 5px;
+    width: 50%;
+}
+
+/* ------------------------- */
+#row4{
+    margin-top: 10px;
+    height: 50px;
+}
+
+#row4 .box{
+    position: static;
+    left: 0;
+    float: left;
+    background: #d8d8d8;
+    border: 1px solid #000000;
+    height: 50px;
+    margin-top: 5px;
+    width: 32%;
+}

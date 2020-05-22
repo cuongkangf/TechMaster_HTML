@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+#photo-list{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid white;
+}
+.col{
+    float: left;
+    width: 33.33%;
+    position: relative;
+}
+.div-photo{
+    display: table;
+    border: 2px solid white;
+    margin: 0.15% 0 0.15% 0.3%;
+}
+/* .div-photo:hover {
+    border-color: red;
+} */
+.div-photo img{
+    display: table-row;
+    width:100%;
+    opacity: 1;
+    transition: opacity 1s linear, transform .5s linear;
+}
+.div-photo:hover img{
+    opacity: .5;
+    transform: scale(0.7) translateY(-15%); 
+}

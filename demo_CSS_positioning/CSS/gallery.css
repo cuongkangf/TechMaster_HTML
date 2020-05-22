@@ -1,0 +1,23 @@
+#photo-list{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid white;
+}
+.div-photo{
+    display: table;
+    border: 2px solid white;
+    margin: 0.15% 0 .15% 0.3%;
+    width: 33%;
+    float: left;
+}
+.div-photo:hover{
+    border-color: red;
+}
+.div-photo img{
+    display: table-row;
+    width:100%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+}

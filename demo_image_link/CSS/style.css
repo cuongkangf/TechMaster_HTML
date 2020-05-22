@@ -1,0 +1,29 @@
+img{
+    width: 200px;
+}
+a:link{
+    color: orangered;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a:active
+{
+    color: green;
+}
+
+b.hocphi::after{
+    content: " VND";
+}
+
+p.truong::before{
+    content: "Trường đại học ";
+}
+
+::selection{
+    background-color: black;
+    color: white;
+}

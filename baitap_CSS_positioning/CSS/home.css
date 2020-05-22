@@ -1,0 +1,12 @@
+b.hocphi::after{
+    content: " VND";
+}
+
+p.truong::before{
+    content: "Trường đại học ";
+}
+
+::selection{
+    background-color: black;
+    color: white;
+}

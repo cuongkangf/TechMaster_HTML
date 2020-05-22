@@ -1,0 +1,69 @@
+#photo-list{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid white;
+}
+.col{
+    float: left;
+    width: 33.33%;
+    position: relative;
+}
+.thumb1 , .thumb2{
+    display: table;
+    border: 2px solid white;
+    margin: 0.15% 0 0.15% 0.3%;
+}
+/* .div-photo:hover {
+    border-color: red;
+} */
+.thumb1 img, .thumb2 img{
+    display: table-row;
+    width:100%;
+}
+.thumb1{
+    transition: all 0.5s ease;
+}
+.thumb2{
+    overflow: hidden;
+}
+.thumb2 img{
+    transition: all 0.5s ease;
+}
+
+.thumb1:hover{
+    transform: translate(0,-15px);
+    box-shadow: 0 10px 10px 0px rgba(255, 0, 0, 0.2)
+}
+.thumb2:hover img{
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+@keyframes album_anh_animation{
+    0%{
+        color: white;
+        background-color: blue;
+    }
+    25%{
+        color: red;
+        background-color: yellow;
+    }
+    50%{
+        color: blue;
+        background-color: white;
+    }
+    75%{
+        color: yellow;
+        background-color: red;
+    }
+    100%{
+        color: white;
+        background-color: blue;
+    }
+} 
+
+.album_anh{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    animation: album_anh_animation 10s ease infinite;
+}

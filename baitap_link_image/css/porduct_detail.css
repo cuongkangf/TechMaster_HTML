@@ -1,0 +1,45 @@
+*{
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 1.5em;
+}
+h1.head{
+    margin-bottom: 30px; 
+}
+a h2{
+    position: absolute;
+    top: 45px;
+
+}
+img{
+    position: relative;
+    max-width: 500px;
+    margin-top: 10px;
+}
+.info{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;   
+}
+table{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+.row_heading{
+    background-color: gray;
+    color: white;
+}
+th{
+    width: 200px;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+td{
+    border: 1px solid #000000;
+    padding: 10px;
+
+}
